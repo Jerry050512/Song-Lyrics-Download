@@ -20,3 +20,5 @@ pip install -r requirements.txt
 1. Modify the constant `TARGET_URL` in the `song_lyrics_spider.py` file.
  The `TARGET_URL` is an album page of one singer.
 2. Run the python code and you'll get the result in the `lyrics.txt` file.
+
+Note. Accessing too many web pages might cause the rechaptcha page. The program will wait you until you pass the rechaptcha test and press the enter key in the main terminal.
